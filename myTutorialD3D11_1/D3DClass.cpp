@@ -129,7 +129,7 @@ bool D3DClass::Initialize(int screenWidth, int screenHeight, bool vsync, HWND hw
 
 	//后缓冲的surface的格式为 DXGI_FORMAT_R8G8B8A8_UNORM
 	//surface的每个像素用4个无符号的8bit[映射到0-1]来表示。NORM表示归一化
-	swapChainDesc.BufferDesc.Format = DXGI_FORMAT_B8G8R8A8_UNORM;
+	swapChainDesc.BufferDesc.Format = DXGI_FORMAT_R8G8B8A8_UNORM;
 
 	//若使用垂直同步，设置后缓冲的刷新率
 	//若开启垂直同步，则锁定刷新率，则fps固定

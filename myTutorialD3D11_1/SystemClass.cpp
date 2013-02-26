@@ -153,7 +153,7 @@ bool SystemClass::Frame()
 		m_Graphics->m_Camer->SetPosition(0.0f, 0.0f, -10.0f);
 
 	//¶¯»­£¬Ðý×ªÉãÏñ»ú
-	m_Graphics->m_Camer->roll(m_timer->GetTime()*1000);
+	//m_Graphics->m_Camer->roll(m_timer->GetTime()*1000);
 
 	result = m_Graphics->Frame();
 	if (!result)

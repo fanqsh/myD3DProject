@@ -3,7 +3,9 @@
 //链接程序使用的一些D3D库
 #pragma comment(lib, "dxgi.lib")
 #pragma comment(lib, "d3d10.lib")
-#pragma comment(lib, "C:\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)\\Lib\\x86\\d3dx10.lib")
+//#pragma comment(lib, "C:\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)\\Lib\\x86\\d3dx10.lib")
+#pragma comment(lib, "C:\\Program Files\\Microsoft DirectX SDK (June 2010)\\Lib\\x86\\d3dx10.lib") 
+
 
 //D3D的一些头文件
 #include <dxgi.h>
